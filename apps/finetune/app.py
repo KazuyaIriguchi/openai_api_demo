@@ -5,7 +5,7 @@ import json
 from check_data_format import check_data_format
 from dataset_token_stats import dataset_token_stats
 
-st.title("Check Fine-tune data formatting")
+st.title("Dataset Formatting and Token Checker")
 
 uploaded_files = st.file_uploader("Choose JSONL files", type="jsonl", accept_multiple_files=True)
 
